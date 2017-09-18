@@ -13,6 +13,48 @@ body {
   margin: 10vh auto;
 }
 
+.selection {
+  width: 100%;
+}
+
+.lang-title {
+  text-align: center;
+}
+
+.lang-button {
+  background-color: #34B3A0;
+  outline: none;
+  padding: 1rem 3.75rem;
+  display: inline-block;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  color: white;
+}
+
+.lang-button.eng {
+    background-color: #b33434;
+}
+
+.lang-button.eng:hover {
+    background-color: #e0a712;
+}
+
+.lang-button.esp {
+    background-color: #e0a712;
+}
+
+.lang-button.esp:hover{
+    background-color: #b33434;
+}
+
+.unactive {
+  display: none;
+}
+
 .tip {
   width: 100%;
 }
@@ -70,4 +112,31 @@ body {
   background-color: #D8D8D8 !important;
   color: #888;
   cursor: not-allowed !important;
+}
+
+.change-lang-button {
+  background-color: #b33434;
+  outline: none;
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  margin: 0 20px;
+  float: right;
+  font-size: 0.7rem;
+  margin-top: 1.25rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  color: white;
+}
+
+.change-lang-button:hover {
+  background-color: #e0a712;
+}
+
+.spanish {
+  background-color: #e0a712 !important;
+}
+
+.spanish:hover {
+  background-color: #b33434 !important;
 }
